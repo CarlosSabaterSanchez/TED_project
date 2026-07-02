@@ -1,0 +1,117 @@
+/opt/home/carlos/ines_TED/genomes_TED/assembled_strain_genomes/../../../quast-5.2.0/quast.py 10.fasta 11.fasta 12.fasta 13.fasta 14.fasta 15.fasta 16.fasta 17.fasta 18.fasta 1.fasta 20.fasta 21.fasta 22.fasta 23.fasta 2.fasta 3.fasta 4.fa 5.fasta 6.fasta 7.fasta 8.fasta 9.fasta
+
+Version: 5.2.0, 3d87c606
+
+System information:
+  OS: Linux-4.18.0-348.20.1.el8_5.x86_64-x86_64-with-glibc2.28 (linux_64)
+  Python version: 3.12.0
+  CPUs number: 36
+
+Started: 2021-12-01 19:45:42
+
+Logging to /opt/home/carlos/ines_TED/genomes_TED/assembled_strain_genomes/quast_results/results_2021_12_01_19_45_42/quast.log
+NOTICE: Maximum number of threads is set to 9 (use --threads option to set it manually)
+
+CWD: /opt/home/carlos/ines_TED/genomes_TED/assembled_strain_genomes
+Main parameters: 
+  MODE: default, threads: 9, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Contigs:
+  Pre-processing...
+  1  10.fasta ==> 10
+  2  11.fasta ==> 11
+  3  12.fasta ==> 12
+  4  13.fasta ==> 13
+  5  14.fasta ==> 14
+  6  15.fasta ==> 15
+  7  16.fasta ==> 16
+  8  17.fasta ==> 17
+  9  18.fasta ==> 18
+  10 1.fasta ==> 1
+  11 20.fasta ==> 20
+  12 21.fasta ==> 21
+  13 22.fasta ==> 22
+  14 23.fasta ==> 23
+  15 2.fasta ==> 2
+  16 3.fasta ==> 3
+  17 4.fa ==> 4
+  18 5.fasta ==> 5
+  19 6.fasta ==> 6
+  20 7.fasta ==> 7
+  21 8.fasta ==> 8
+  22 9.fasta ==> 9
+
+2021-12-01 19:45:44
+Running Basic statistics processor...
+  Contig files: 
+    1  10
+    2  11
+    3  12
+    4  13
+    5  14
+    6  15
+    7  16
+    8  17
+    9  18
+    10 1
+    11 20
+    12 21
+    13 22
+    14 23
+    15 2
+    16 3
+    17 4
+    18 5
+    19 6
+    20 7
+    21 8
+    22 9
+  Calculating N50 and L50...
+    1  10, N50 = 250077, L50 = 4, auN = 246615.6, Total length = 2514306, GC % = 35.33, # N's per 100 kbp =  0.00
+    2  11, N50 = 250077, L50 = 4, auN = 246700.7, Total length = 2515393, GC % = 35.35, # N's per 100 kbp =  0.00
+    3  12, N50 = 330335, L50 = 2, auN = 452247.8, Total length = 1971605, GC % = 37.77, # N's per 100 kbp =  0.00
+    4  13, N50 = 544871, L50 = 2, auN = 546853.9, Total length = 2030968, GC % = 37.30, # N's per 100 kbp =  0.00
+    5  14, N50 = 146376, L50 = 4, auN = 232528.8, Total length = 2059456, GC % = 39.13, # N's per 100 kbp =  0.00
+    6  15, N50 = 208996, L50 = 3, auN = 281015.1, Total length = 1921791, GC % = 43.79, # N's per 100 kbp =  0.00
+    7  16, N50 = 120524, L50 = 5, auN = 223090.7, Total length = 2128776, GC % = 39.27, # N's per 100 kbp =  0.00
+    8  17, N50 = 185433, L50 = 4, auN = 226439.0, Total length = 2207441, GC % = 44.75, # N's per 100 kbp =  0.00
+    9  18, N50 = 212312, L50 = 5, auN = 226515.4, Total length = 3241332, GC % = 44.53, # N's per 100 kbp =  0.00
+    10 1, N50 = 155426, L50 = 28, auN = 188966.9, Total length = 13141288, GC % = 39.70, # N's per 100 kbp =  0.00
+    11 20, N50 = 157256, L50 = 14, auN = 164664.3, Total length = 6246957, GC % = 41.13, # N's per 100 kbp =  0.00
+    12 21, N50 = 338047, L50 = 6, auN = 381507.7, Total length = 5570915, GC % = 42.17, # N's per 100 kbp =  0.00
+    13 22, N50 = 430929, L50 = 2, auN = 409225.7, Total length = 2347132, GC % = 56.30, # N's per 100 kbp =  0.00
+    14 23, N50 = 1494497, L50 = 1, auN = 974809.9, Total length = 2375383, GC % = 56.01, # N's per 100 kbp =  0.00
+    15 2, N50 = 372896, L50 = 3, auN = 304774.6, Total length = 1969071, GC % = 38.08, # N's per 100 kbp =  0.00
+    16 3, N50 = 104642, L50 = 11, auN = 112766.4, Total length = 3174123, GC % = 44.97, # N's per 100 kbp =  0.00
+    17 4, N50 = 104949, L50 = 11, auN = 108232.3, Total length = 3125594, GC % = 44.87, # N's per 100 kbp =  141.16
+    18 5, N50 = 3089, L50 = 258, auN = 4693.8, Total length = 2941159, GC % = 35.19, # N's per 100 kbp =  0.00
+    19 6, N50 = 313964, L50 = 3, auN = 361313.0, Total length = 2339995, GC % = 44.69, # N's per 100 kbp =  0.00
+    20 7, N50 = 250461, L50 = 3, auN = 296128.1, Total length = 1816154, GC % = 39.01, # N's per 100 kbp =  0.00
+    21 8, N50 = 126271, L50 = 4, auN = 195067.4, Total length = 1856267, GC % = 38.95, # N's per 100 kbp =  0.00
+    22 9, N50 = 194342, L50 = 4, auN = 156820.5, Total length = 1852731, GC % = 38.93, # N's per 100 kbp =  0.00
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2021-12-01 19:45:46
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2021-12-01 19:45:46
+RESULTS:
+  Text versions of total report are saved to /opt/home/carlos/ines_TED/genomes_TED/assembled_strain_genomes/quast_results/results_2021_12_01_19_45_42/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /opt/home/carlos/ines_TED/genomes_TED/assembled_strain_genomes/quast_results/results_2021_12_01_19_45_42/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /opt/home/carlos/ines_TED/genomes_TED/assembled_strain_genomes/quast_results/results_2021_12_01_19_45_42/report.html
+  Icarus (contig browser) is saved to /opt/home/carlos/ines_TED/genomes_TED/assembled_strain_genomes/quast_results/results_2021_12_01_19_45_42/icarus.html
+  Log is saved to /opt/home/carlos/ines_TED/genomes_TED/assembled_strain_genomes/quast_results/results_2021_12_01_19_45_42/quast.log
+
+Finished: 2021-12-01 19:45:47
+Elapsed time: 0:00:04.130612
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
